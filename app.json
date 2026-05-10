@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Curriculo Matheus",
+    "slug": "curriculo-matheus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
