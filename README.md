@@ -1,18 +1,18 @@
 # Currículo interativo
 
-Página React Native Web criada com Expo para apresentar o currículo de Matheus Rodrigues da Silva de forma interativa.
+Página React com Vite para apresentar o currículo de forma interativa.
 
 ## Como rodar
 
 ```bash
-corepack pnpm install
-corepack pnpm web -- --port 8083
+npm install
+npm run dev
 ```
 
-Depois acesse:
+Depois acesse a URL exibida pelo Vite no terminal. Por padrão:
 
 ```text
-http://localhost:8083
+http://localhost:5173
 ```
 
 ## Onde editar os dados
@@ -23,4 +23,4 @@ As informações do currículo ficam centralizadas em:
 src/data/profile.ts
 ```
 
-Edite esse arquivo para ajustar skills, cargos, links, descrições e formação.
+Edite esse arquivo para ajustar skills, cargos, links, descrições, formação e certificados.
