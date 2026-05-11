@@ -10,7 +10,6 @@ import {
   profile,
   skills
 } from "./src/data/profile";
-import profileVisual from "./assets/profile-visual.png";
 
 type Filter = SkillCategory | "all";
 
@@ -60,7 +59,7 @@ export default function App() {
           </div>
 
           <aside className="profile-panel" aria-label="Resumo do perfil">
-            <img className="profile-visual" src={profileVisual} alt="Marca visual MR Full Stack" />
+            <img className="profile-visual" src={profile.links.avatar} alt={`Foto de ${profile.name}`} />
             <div className="metric-grid">
               <Metric value="3+" label="experiências" />
               <Metric value={String(skills.length)} label="skills" />
